@@ -27,6 +27,13 @@ p {
   position: relative;
   
 }
+
+.moveimage
+{
+    position: relative;
+    top: 5px;
+}
+
   .parallax-container .section {
     width: 100%;
   }
