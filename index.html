@@ -18,29 +18,30 @@
 </head>
 
 <body>  
-  <nav class="white" role="navigation">
+
+  <nav class="transparent" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="index" class="brand-logo"><img class = "moveimage" src="site-logo.png" width = "40" height = "40"></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="about">About Me</a></li>
-      </ul>
+      
 
       <ul id="nav-mobile" class="sidenav">
         <li><a href="index">Home</a></li>
         <li><a href="about">About Me</a></li> 
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger show-on-large right"><i class="material-icons white-text">menu</i></a>
     </div>
   </nav>
 
 
-  <div id="index-banner" class="parallax-container" >
+  <div class="index-banner" id="particles-js" >
     <div class="section no-pad-bot">
-      <div class="container">
+<div class="circle" style="transform: translate3d(0px, -209px, 0px) rotate(45deg)">
+</div>
+      <div class="container rellax" data-rellax-speed="-4">
         <br><br>
-        <h1 class="header center white-text intro ">Danial Beg</h1>
+        <h1 class="header center white-text intro " >Danial Beg</h1>
         <div class="row center">
-          <h5 class="header col s12 light">Here you will find a collection of some of my interests. Everything from Computer Science projects to hobbies such as car photography and film making.</h5>
+          <h5 class="header col s12 light white-text">Here you will find a collection of some of my interests. Everything from Computer Science projects to hobbies such as car photography and film making.</h5>
           
         </div>
         <div class="row center">
@@ -50,9 +51,7 @@
 
       </div>
     </div>
-    <div class="parallax"><img class="blur-me" src="home.jpg" width = "1440" height = "960"></div>
   </div>
-
   <div class="container wow">
     <div class="section">
 
@@ -178,8 +177,7 @@
 
     </div>
   </div> -->
-<div  id="particles-js">
-</div>
+
 <footer class="page-footer navyblue" >
     <div class="container">
       <div class="row">
@@ -232,6 +230,7 @@
 
               </script>
   <script src="js/particles.js"></script>
+  <script src="js/rellax.js"></script>
 
   </body>
 </html>

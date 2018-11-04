@@ -3,26 +3,27 @@
 
     $('.sidenav').sidenav();
     $('.parallax').parallax();
+    var rellax = new Rellax('.rellax');
     particlesJS({
   "particles": {
     "number": {
-      "value": 317,
+      "value": 125,
       "density": {
         "enable": true,
-        "value_area": 789.1476416322727
+        "value_area": 800
       }
     },
     "color": {
-      "value": ["#fa742f", "#ff337d", "#1866ef", "#31ff93"]
+      "value": "#ffffff"
     },
     "shape": {
-      "type": "circle",
+      "type": "edge",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#ffffff"
       },
       "polygon": {
-        "nb_sides": 9
+        "nb_sides": 5
       },
       "image": {
         "src": "img/github.svg",
@@ -51,8 +52,8 @@
       }
     },
     "line_linked": {
-      "enable": false,
-      "distance": 150,
+      "enable": true,
+      "distance": 272.29407760381207,
       "color": "#ffffff",
       "opacity": 0.4,
       "width": 1
@@ -113,6 +114,8 @@
   },
   "retina_detect": true
 });
+
+
   }); // end of document ready
 
 })(jQuery); // end of jQuery name space
