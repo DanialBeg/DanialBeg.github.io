@@ -3,6 +3,11 @@
 
     $('.sidenav').sidenav();
     $('.parallax').parallax();
+    $(".down-btn").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $(".main-body").offset().top},
+	        'fast');
+		});
     var rellax = new Rellax('.rellax');
     particlesJS({
   "particles": {

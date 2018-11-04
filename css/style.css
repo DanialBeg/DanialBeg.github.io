@@ -26,6 +26,13 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
   margin-left: 68%;
   margin-top: 350px;
 }
+.down-btn {
+  font-size: 40px;
+  color: white !important;
+  background: none !important;
+  border: none;
+}
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
