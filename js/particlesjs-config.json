@@ -1,9 +1,4 @@
-(function($){
-  $(function(){
-
-    $('.sidenav').sidenav();
-    $('.parallax').parallax();
-    particlesJS({
+{
   "particles": {
     "number": {
       "value": 317,
@@ -13,7 +8,7 @@
       }
     },
     "color": {
-      "value": ["#fa742f", "#ff337d", "#1866ef", "#31ff93"]
+      "value": "#ffffff"
     },
     "shape": {
       "type": "circle",
@@ -112,7 +107,4 @@
     }
   },
   "retina_detect": true
-});
-  }); // end of document ready
-
-})(jQuery); // end of jQuery name space
+}

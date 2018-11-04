@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   <meta name="theme-color" content="#db5945">
@@ -27,17 +27,18 @@
 
       <ul id="nav-mobile" class="sidenav">
         <li><a href="index">Home</a></li>
-        <li><a href="about">About Me</a></li>
+        <li><a href="about">About Me</a></li> 
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
+
+  <div id="index-banner" class="parallax-container" >
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center white-text intro">Danial Beg</h1>
+        <h1 class="header center white-text intro ">Danial Beg</h1>
         <div class="row center">
           <h5 class="header col s12 light">Here you will find a collection of some of my interests. Everything from Computer Science projects to hobbies such as car photography and film making.</h5>
           
@@ -52,12 +53,12 @@
     <div class="parallax"><img class="blur-me" src="home.jpg" width = "1440" height = "960"></div>
   </div>
 
-  <div class="container wow bounceInUp">
+  <div class="container wow">
     <div class="section">
 
       <div class="row">
         <div class="col s12 center">
-          <table align="center" class="options-contact z-depth-1">
+          <table align="center" class="options-contact z-depth-1 animated pulse wow">
             <tr>
               <td class="contact-btn">
                 <a href="https://www.linkedin.com/in/danial-beg-b476b1109/" target="_blank" class="white-text">
@@ -82,7 +83,7 @@
           <p class="middle-align light"> Click the project image to learn more! </p>
           <br>
           <br>
-          <div class="z-depth-2 round-corner padding-def gold-border-sect ">
+          <div class="z-depth-2 round-corner padding-def gold-border-sect  animated pulse wow">
             <p>
               <a href="https://github.com/DanialBeg/SunTracking" target = "_blank">
               <i class="fas fa-sun sun"></i>
@@ -97,7 +98,7 @@
           </div>
           <br>
           <br>
-          <div class="z-depth-2 round-corner padding-def tc-border-sect">
+          <div class="z-depth-2 round-corner padding-def tc-border-sect animated pulse wow">
           <p>
             <a href="http://technologicoders.weebly.com/" target = "_blank">
             <img border="0" alt="Technologicoders" src="tc.png" width="100" height="100">
@@ -113,7 +114,7 @@
         </div>
           <br>
           <br>
-          <div class="z-depth-2 round-corner padding-def black-border-sect">
+          <div class="z-depth-2 round-corner padding-def black-border-sect animated pulse wow">
           <p>
             <a href="https://www.instagram.com/hyperchargedvideos/" target = "_blank">
             <img border="0" alt="Hypercharged" src="hypercharged.png" width="100" height="100">
@@ -177,8 +178,9 @@
 
     </div>
   </div> -->
-
-<footer class="page-footer teal">
+<div  id="particles-js">
+</div>
+<footer class="page-footer navyblue" >
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -220,7 +222,16 @@
   <script src="js/init.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
               <script>
-              new WOW().init();
+              new WOW({
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       200,   
+                      mobile:       true,       // default
+                      live:         true        // default
+              }).init();
+
               </script>
+  <script src="js/particles.js"></script>
+
   </body>
 </html>

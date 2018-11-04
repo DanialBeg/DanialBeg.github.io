@@ -10,7 +10,10 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 p {
   line-height: 2rem;
 }
@@ -22,10 +25,10 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: auto;
+  /* height: auto !important; */
   color: rgba(255,255,255,.9);
   position: relative;
-  
+
 }
 
 .moveimage
@@ -46,10 +49,27 @@ p {
   .parallax-container .section {
     width: 100%;
   }
-
+#particles-js {
+  background: #042559;
+  height: 50px;
+}
+.navyblue {
+    background: #042559;
+}
  .intro {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 100px !important;
+  color: #f35626;
+  height: auto;
+  background: linear-gradient(225deg, #ff0000, #ffb300, #ffe000, #00da1b, #009dda, #001fda, #a200da, #da00b1, #da003c);
+  background-size: 1800% 1800%;
+  -webkit-animation: hue-infinite 49s ease infinite;
+  -moz-animation: hue-infinite 49s ease infinite;
+  -o-animation: hue-infinite 49s ease infinite;
+  animation: hue-infinite 49s ease infinite;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
  }
 .background1{
   min-height: 380px;
@@ -102,6 +122,26 @@ footer.page-footer {
   opacity: 0.9;
 
 }
+@-webkit-keyframes hue-infinite {
+    0%{background-position:73% 0%}
+    50%{background-position:28% 100%}
+    100%{background-position:73% 0%}
+}
+@-moz-keyframes hue-infinite {
+    0%{background-position:73% 0%}
+    50%{background-position:28% 100%}
+    100%{background-position:73% 0%}
+}
+@-o-keyframes hue-infinite {
+    0%{background-position:73% 0%}
+    50%{background-position:28% 100%}
+    100%{background-position:73% 0%}
+}
+@keyframes hue-infinite { 
+    0%{background-position:73% 0%}
+    50%{background-position:28% 100%}
+    100%{background-position:73% 0%}
+}
 .options-contact:hover {
   opacity: 1;
   transition: all 0.2s ease-in-out;
@@ -117,16 +157,16 @@ footer.page-footer {
   border-radius: 15px !important;
 }
 .gold-border-sect {
-    border: 3px solid #FFDF00;
+    /*border: 3px solid #FFDF00;*/
     background: #F7971E;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .tc-border-sect {
-  border: 3px solid #0071bb;
-  background: #00c6ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*border: 3px solid #0071bb;*/
+  background: #7F00FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .important-text {
@@ -139,7 +179,7 @@ footer.page-footer {
   font-size: 35px !important;
 }
 .black-border-sect {
-    border: 3px solid #000;
+    /*border: 3px solid #000;*/
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
