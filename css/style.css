@@ -34,7 +34,7 @@ p {
     top: 5px;
 }
 .blur-me {
-  filter: blur(2px);
+  filter: blur(6px);
 }
 
 .movepic
@@ -47,6 +47,10 @@ p {
     width: 100%;
   }
 
+ .intro {
+  font-family: 'Indie Flower', cursive;
+  font-size: 100px !important;
+ }
 .background1{
   min-height: 380px;
   line-height: 0;
@@ -84,6 +88,60 @@ footer.page-footer {
 }
 
 .sun {
-  color: gold;
+  color: white;
   font-size: 120px;
+}
+
+.options-contact {
+  overflow: hidden;
+  border-radius: 25px;
+  background: #ff5f6d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff5f6d, #ffc371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: all 0.2s ease-in-out;
+  opacity: 0.9;
+
+}
+.options-contact:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.contact-btn {
+  text-align: center;
+  font-size: 35px;
+}
+.padding-def {
+  padding: 10px !important;
+}
+.round-corner {
+  border-radius: 15px !important;
+}
+.gold-border-sect {
+    border: 3px solid #FFDF00;
+    background: #F7971E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.tc-border-sect {
+  border: 3px solid #0071bb;
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.important-text {
+  font-family: 'Titillium Web', sans-serif;
+}
+#project-header {
+  font-size: 100px;
+}
+.lang-used {
+  font-size: 35px !important;
+}
+.black-border-sect {
+    border: 3px solid #000;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }

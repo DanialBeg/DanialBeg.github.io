@@ -10,9 +10,14 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <meta name="theme-color" content="#db5945">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:900" rel="stylesheet">
 </head>
-<body>
+
+<body>  
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="index" class="brand-logo"><img class = "moveimage" src="site-logo.png" width = "40" height = "40"></a>
@@ -32,9 +37,10 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Welcome to my Portfolio!</h1>
+        <h1 class="header center white-text intro">Danial Beg</h1>
         <div class="row center">
           <h5 class="header col s12 light">Here you will find a collection of some of my interests. Everything from Computer Science projects to hobbies such as car photography and film making.</h5>
+          
         </div>
         <div class="row center">
           <!-- <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a> -->
@@ -46,47 +52,80 @@
     <div class="parallax"><img class="blur-me" src="home.jpg" width = "1440" height = "960"></div>
   </div>
 
-  <div class="container">
+  <div class="container wow bounceInUp">
     <div class="section">
 
       <div class="row">
         <div class="col s12 center">
+          <table align="center" class="options-contact z-depth-1">
+            <tr>
+              <td class="contact-btn">
+                <a href="https://www.linkedin.com/in/danial-beg-b476b1109/" target="_blank" class="white-text">
+                      <i class="fab fa-linkedin"></i>
+                  </a>
+              </td>
+              <td class="contact-btn">
+                <a href="https://github.com/DanialBeg/" target="_blank" class="white-text">
+                      <i class="fab fa-github"></i>
+                  </a>
+              </td>
+              <td class="contact-btn">
+                <a href="mailto:dbeg001@ucr.edu" class="white-text">
+                      <i class="fas fa-envelope"></i>
+                  </a>
+              </td>
+
+            </tr>
+          </table>
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Projects</h4>
+          <h4 class="important-text" id="project-header">Projects</h4>
           <p class="middle-align light"> Click the project image to learn more! </p>
           <br>
           <br>
-          <p>
-            <a href="https://github.com/DanialBeg/SunTracking" target = "_blank">
-            <i class="fas fa-sun sun"></i>
-            </a>
-            <h4 class = "center brown-text">Sun Tracking UCSD</h4>
-          </p>
-          <p class="middle-align light"> This is a project I did in the my summer of my senior year in highschool. I worked at a lab in the Center of Energy Research (CER) at 
-          UCSD. There I was tasked on working on a team in making a program that tracked the sun throughout the day. This system would be utilizied to help predict weather as 
-          well-continued objects blocking the sun would be read in by this system. We utilized Python to make a computer webcam distnguish the sun from other objects (clouds
-          and such) using Computer Vision (CV). </p>
+          <div class="z-depth-2 round-corner padding-def gold-border-sect ">
+            <p>
+              <a href="https://github.com/DanialBeg/SunTracking" target = "_blank">
+              <i class="fas fa-sun sun"></i>
+              </a>
+              <h4 class = "center white-text important-text">Sun Tracking UCSD</h4>
+            </p>
+            <p class="middle-align light white-text"> This is a project I did in the my summer of my senior year in highschool. I worked at a lab in the Center of Energy Research (CER) at 
+            UCSD. There I was tasked on working on a team in making a program that tracked the sun throughout the day. This system would be utilizied to help predict weather as 
+            well-continued objects blocking the sun would be read in by this system. We utilized Python to make a computer webcam distnguish the sun from other objects (clouds
+            and such) using Computer Vision (CV). </p>
+            <i class="fab fa-python white-text lang-used"></i>
+          </div>
           <br>
           <br>
+          <div class="z-depth-2 round-corner padding-def tc-border-sect">
           <p>
             <a href="http://technologicoders.weebly.com/" target = "_blank">
             <img border="0" alt="Technologicoders" src="tc.png" width="100" height="100">
             </a>
-            <h4 class = "center brown-text">Technologicoders</h4>
+            <h4 class = "center white-text important-text">Technologicoders</h4>
           </p>
-          <p class="middle-align light"> Worked with a group of (mostly underprivileged) kids to help expand their knowledge
+          <p class="middle-align light white-text"> Worked with a group of (mostly underprivileged) kids to help expand their knowledge
           about technology (software and hardware). I also organized workshops where kids were taught how to build a computer and organized private tutoring lessons to help them learn coding languages such as Java and Python. Computer Science is becoming such an important field that I think everyone should have exposure to it, 
           even people who might not have a computer in their house.</p>
+            <i class="fab fa-python white-text lang-used"></i>
+            <i class="fab fa-java white-text lang-used"></i>
+
+        </div>
           <br>
           <br>
+          <div class="z-depth-2 round-corner padding-def black-border-sect">
           <p>
             <a href="https://www.instagram.com/hyperchargedvideos/" target = "_blank">
             <img border="0" alt="Hypercharged" src="hypercharged.png" width="100" height="100">
             </a>
-            <h4 class = "center brown-text">Hypercharged</h4>
-            <p class="middle-align light"> This is a media group that I started with some of my highschool friends centered around something we all were passionate about: cars.
+            <h4 class = "center white-text important-text">Hypercharged</h4>
+          </p>
+            <p class="middle-align light white-text"> This is a media group that I started with some of my highschool friends centered around something we all were passionate about: cars.
             Hypercharged makes YouTube videos and also does automotive photography (most of the work is on Instagram, click the link to check it out!). I am responsible for the
           majority of the video editing as well as photography for the group's Instagram. </p>
+          <i class="fab fa-youtube white-text lang-used"></i>
+
+      </div>
         </div>
       </div>
 
@@ -179,6 +218,9 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
   </body>
 </html>
