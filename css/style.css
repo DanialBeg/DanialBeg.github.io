@@ -26,6 +26,13 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
   margin-left: 68%;
   margin-top: 350px;
 }
+  #profileImg {
+      width: 100% !important;
+      display: block;
+      height: auto;
+      margin: 0 auto !important;
+  }
+
 .down-btn {
   font-size: 40px;
   color: white !important;
