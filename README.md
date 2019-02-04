@@ -4,4 +4,4 @@ This is a website that I made to be a showcase of all my work that I have done. 
 
 Made with the help of Materialize.
 
-![Download Page] (https://i.ibb.co/RhPCfWb/Screen-Shot-2019-02-03-at-9-13-34-PM.png)
+![Download Page](https://i.ibb.co/RhPCfWb/Screen-Shot-2019-02-03-at-9-13-34-PM.png)
